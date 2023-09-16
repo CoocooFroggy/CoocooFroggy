@@ -1,26 +1,49 @@
 # My projects
 
 - [FutureRestore GUI](https://github.com/CoocooFroggy/FutureRestore-GUI) 📲
-	- A GUI to downgrade iOS devices using FutureRestore. Over 200,000 downloads and 10,000 successful iOS device restores and counting!
+    - A GUI to downgrade iOS devices using FutureRestore. Over 200,000 downloads and 10,000 successful iOS device restores and counting!
+    - Tech stack:
+        - UI: Java Swing, desktop only.
+        - Back end / server: 🔒 [FutureRestore GUI Log Server](https://github.com/CoocooFroggy/futurerestore_log_server). Basic HTTP Java server, and later rewritten in Dart with `shelf`.
 - [Whisper CC](https://github.com/CoocooFroggy/whisper_cc) 🎥 📱
-	- A mobile and desktop application for Deaf/HoH people that generates captions for YouTube videos using OpenAI's Whisper AI.
-	- 🔒 [whisper_cc_backend](https://github.com/CoocooFroggy/whisper_cc_backend)
-- 🔒 [TurboDMV front end](https://github.com/CoocooFroggy/dmv_scraper_app) 🚗 🌐
-	- A web app that allows users to book DMV appointments by simply scanning their license.
- 	- https://turbodmv.com
+    - A mobile and desktop application for Deaf/HoH people that generates captions for YouTube videos using OpenAI's Whisper AI.
+    - Tech stack:
+        - UI: Flutter compiled to mobile and desktop.
+        - Back end / server: 🔒 [whisper_cc_backend](https://github.com/CoocooFroggy/whisper_cc_backend) Dart with `shelf`. Later discarded in favor of interacting with Hugging Face API directly.
+        - Third party: Hugging Face hosted Whisper JAX model.
+- [TurboDMV](https://turbodmv.com) 🚗 🌐
+    - A web app that allows users to book DMV appointments by simply scanning their license.
+     - Tech stack:
+        - UI: Flutter compiled to web only.
+        - Back end / server: 🔒 [dmv_scraper](https://github.com/Turbo-DMV/dmv_scraper). Dart with `shelf` for receiving new requests from the front-end. MongoDB for keeping track of the queue.
+        - Third party: Twilio for confirmation texts, Microblink for reading information from driver's licenses.
 - [TTR Updates](https://github.com/CoocooFroggy/ttr_updates_bot) 🎮
-	- A bot that notifies you upon the release of updates to Toontown Rewritten, and uploads the extracted changes to [ttr_update_files](https://github.com/CoocooFroggy/ttr_update_files)
+    - A bot that notifies you upon the release of updates to Toontown Rewritten, and uploads the extracted changes to [ttr_update_files](https://github.com/CoocooFroggy/ttr_update_files).
+    - Tech stack:
+        - Back end / server: Pure Dart.
 - 🔒 [Tadpole Swap Server](https://github.com/CoocooFroggy/TSwapS-Server)
-	- A (now defunct) server that abuses two security vulnerabilities in iOS devices to save signing tickets without needing to use a computer.
+    - A (now defunct) server that abuses two security vulnerabilities in iOS devices to save signing tickets without needing to use a computer.
+    - Tech stack:
+        - UI: HTML pages with dynamic information
+        - Back end / server: Intercepted requests to gs.apple.com and read relevant information from the device. Static HTML pages had placeholders for string interpolation for variables, served by a basic HTTP Java server. 
 - 🔒 [Disney Virtual Queue](https://github.com/CoocooFroggy/disney_virtual_queue) 🎡
-	- Joins virtual queue for rides through reverse engineering the mobile app's API
+    - Joins virtual queue for rides through reverse engineering the mobile app's API
+    - Tech stack:
+        - Back end / server: Pure Dart.
 - 🔒 [Apple Beta Scanner](https://github.com/CoocooFroggy/apple_beta_scanner) 
-	- Iterate through a hidden, but public, beta endpoint to look for interesting files (I discovered [Ariadne](https://theapplewiki.com/wiki/Ariadne)).
-- 🔒 [FutureRestore GUI Log Server](https://github.com/CoocooFroggy/futurerestore_log_server)
-	- A back end for receiving restore log files from [FutureRestore GUI](https://github.com/CoocooFroggy/FutureRestore-GUI).
+    - Iterate through a hidden, but public, beta endpoint to look for interesting files (I discovered [Ariadne](https://theapplewiki.com/wiki/Ariadne)).
+    - Tech stack:
+        - Back end / server: Pure Dart.
 - [OTA Live](https://github.com/CoocooFroggy/OTA-Live)
-	- A scanner for new iOS over-the-air updates. Also checks signing status and can notify when these updates are no longer signed.
+    - A scanner for new iOS over-the-air updates. Also checks signing status and can notify when these updates are no longer signed.
+    - Tech stack:
+        - Back end / server: Pure Dart.
 - 🔒 [Make-a-Toon](https://github.com/CoocooFroggy/make_a_toon)
-	- A mobile and desktop app that lets you design Toon characters from Toontown Rewritten.
+    - A mobile and desktop app that lets you design Toon characters from Toontown Rewritten.
+    - Tech stack:
+        - UI: Flutter compiled to mobile and desktop.
+        - Third party: Toontown Rewritten's rendition API, reverse engineered by myself
 - [Bomb Lobbers](https://github.com/CoocooFroggy/BombLobbers) 🧱 🧨
-	- A Minecraft plugin that recreates the popular mini-game "Bomb Lobbers" from Mineplex.
+    - A Minecraft plugin that recreates the popular mini-game "Bomb Lobbers" from Mineplex.
+    - Tech stack:
+        - Java spigot plugin for Minecraft.
