@@ -1,16 +1,25 @@
-### Hi there 👋
+# My projects
 
-<!--
-**CoocooFroggy/CoocooFroggy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- [FutureRestore GUI](https://github.com/CoocooFroggy/FutureRestore-GUI) 📲
+	- A GUI to downgrade iOS devices using FutureRestore. Over 200,000 downloads and 10,000 successful iOS device restores and counting!
+- [Whisper CC](https://github.com/CoocooFroggy/whisper_cc) 🎥 📱
+	- A mobile application for Deaf/HoH people that generates captions for YouTube videos using OpenAI's Whisper AI.
+	- 🔒 [whisper_cc_backend](https://github.com/CoocooFroggy/whisper_cc_backend)
+- [TTR Updates](https://github.com/CoocooFroggy/ttr_updates_bot) 🎮
+	- A bot that notifies you upon the release of updates to Toontown Rewritten, and uploads the extracted changes to [ttr_update_files](https://github.com/CoocooFroggy/ttr_update_files)
+- 🔒 [TurboDMV front end](https://github.com/CoocooFroggy/dmv_scraper_app) 🚗 🌐
+	- A web app that allows users to book DMV appointments by simply scanning their license.
+- 🔒 [Tadpole Swap Server](https://github.com/CoocooFroggy/TSwapS-Server)
+	- A (now defunct) server that abuses two security vulnerabilities in iOS devices to save signing tickets without needing to use a computer.
+- 🔒 [Disney Virtual Queue](https://github.com/CoocooFroggy/disney_virtual_queue) 🎡
+	- Joins virtual queue for rides through reverse engineering the mobile app's API
+- 🔒 [Apple Beta Scanner](https://github.com/CoocooFroggy/apple_beta_scanner) 
+	- Iterate through a hidden, but public, beta endpoint to look for interesting files (I discovered [Ariadne](https://theapplewiki.com/wiki/Ariadne)).
+- 🔒 [FutureRestore GUI Log Server](https://github.com/CoocooFroggy/futurerestore_log_server)
+	- A back end for receiving restore log files from [FutureRestore GUI](https://github.com/CoocooFroggy/FutureRestore-GUI).
+- [OTA Live](https://github.com/CoocooFroggy/OTA-Live)
+	- A scanner for new iOS over-the-air updates. Also checks signing status and can notify when these updates are no longer signed.
+- 🔒 [Make-a-Toon](https://github.com/CoocooFroggy/make_a_toon)
+	- A mobile and desktop app that lets you design Toon characters from Toontown Rewritten.
+- [Bomb Lobbers](https://github.com/CoocooFroggy/BombLobbers) 🧱 🧨
+	- A Minecraft plugin that recreates the popular mini-game "Bomb Lobbers" from Mineplex.
