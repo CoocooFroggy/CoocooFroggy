@@ -3,7 +3,7 @@
 - [FutureRestore GUI](https://github.com/CoocooFroggy/FutureRestore-GUI) 📲
 	- A GUI to downgrade iOS devices using FutureRestore. Over 200,000 downloads and 10,000 successful iOS device restores and counting!
 - [Whisper CC](https://github.com/CoocooFroggy/whisper_cc) 🎥 📱
-	- A mobile application for Deaf/HoH people that generates captions for YouTube videos using OpenAI's Whisper AI.
+	- A mobile and desktop application for Deaf/HoH people that generates captions for YouTube videos using OpenAI's Whisper AI.
 	- 🔒 [whisper_cc_backend](https://github.com/CoocooFroggy/whisper_cc_backend)
 - 🔒 [TurboDMV front end](https://github.com/CoocooFroggy/dmv_scraper_app) 🚗 🌐
 	- A web app that allows users to book DMV appointments by simply scanning their license.
