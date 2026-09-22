@@ -1,7 +1,7 @@
 # My projects
 
 - [FutureRestore GUI](https://github.com/CoocooFroggy/FutureRestore-GUI) 📲
-    - A GUI to downgrade iOS devices using FutureRestore. Over 200,000 downloads and 10,000 successful iOS device restores and counting!
+    - A GUI to downgrade iOS devices using FutureRestore. Over 290,000 downloads and 15,000 successful iOS device restores and counting!
     - Tech stack:
         - UI: Java Swing, desktop only.
         - Back end / server: 🔒 [FutureRestore GUI Log Server](https://github.com/CoocooFroggy/futurerestore_log_server). Basic HTTP Java server, and later rewritten in Dart with `shelf`.
